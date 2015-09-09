@@ -298,7 +298,7 @@ namespace OpenTK.Platform.Linux
             if (display != null)
             {
                 LinuxDisplay d = (LinuxDisplay)display.Id;
-                Drm.MoveCursor(d.FD, d.Id, p.X, p.Y);
+                Drm.MoveCursor(d.FD, d.Id, p.X - Drm.CurrentCursor.X, p.Y - Drm.CurrentCursor.Y);
             }
         }
 

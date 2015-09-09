@@ -195,6 +195,7 @@ namespace OpenTK.Platform.Linux
             {
                 Drm.SetCursor(window.FD, window.DisplayDevice.Id,
                     bo.Handle, bo.Width, bo.Height, cursor.X, cursor.Y);
+                Drm.CurrentCursor = cursor;
             }
         }
 

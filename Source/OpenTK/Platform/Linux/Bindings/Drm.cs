@@ -50,6 +50,7 @@ namespace OpenTK.Platform.Linux
 
     class Drm
     {
+        public static MouseCursor CurrentCursor;
         const string lib = "libdrm";
 
         [DllImport(lib, EntryPoint = "drmHandleEvent", CallingConvention = CallingConvention.Cdecl)]
