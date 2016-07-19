@@ -54,6 +54,21 @@ xbuild  /p:Configuration=Release OpenTK.sln  # Build on Mono (Linux / Mac OS X)
 News
 ====
 
+### 2016-07-19
+
+The new OpenTK website is live. You can view it at [opentk.github.io](https://opentk.github.io/)
+
+We are currently looking for contributors for tutorials and other resources.
+
+### 2016-07-13
+
+A pre-release package is available.
+
+https://www.nuget.org/packages/OpenTK.Next/1.2.2336.6514-pre
+https://www.nuget.org/packages/OpenTK.Next.GLControl/1.2.2336.6514-pre
+
+
+
 OpenTK 1.1.4c was released on 24 July 2014.
 
 This is a hotfix release that improves stability on Mac OS X. Moreover, it synchronizes the GamePad configuration database with SDL 2.0.4 and fixes an invalid GUID introduced in 1.1.4b.
@@ -101,7 +116,7 @@ Contributing
 For details on coding style and best practices, refer to https://github.com/opentk/opentk/wiki/Contributing
 
 Some areas we could really use your help:
-- Tutorials for OpenGL 3.x and 4.x. [Inspiration here](https://github.com/Groovounet/ogl-samples)
+- Tutorials for OpenGL 3.x and 4.x. [Inspiration here](https://github.com/g-truc/ogl-samples)
 - New platforms:
   - Native Client (NaCL)
   - Blackberry
